@@ -1,0 +1,221 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Estilos gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-style:italic;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: rgb(30, 10, 213);
+    color: #fff;
+    padding: 30px 100px;
+    border-radius: 0 0 10px 10px;
+    
+  }
+  header h1 {
+    padding-bottom:  10px;
+    overflow: hidden;
+
+    animation: SizeAnimate;
+  }
+  
+  li a:hover  {
+    color: red;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+  }
+  
+  /* Estilos do banner */
+  #banner {
+    background-image: url("banner.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+    color: #000000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .iii{
+    margin-bottom: 90px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #f40808;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 5rem;
+    border-radius: 4px;
+
+  }
+  
+  /* Estilos dos serviços */
+  #services {
+    padding: 50px;
+    font-style: 'Poppins';
+  }
+  
+  .service {
+    margin-top: 5rem;
+    margin-bottom: 30px;
+  }
+
+  
+  /* Estilos sobre nós */
+  #contact {
+    margin-top: 6rem;
+    background-color: #1c09e8;
+    border-radius: 5PX 5PX 0px 0px;
+    color:#fcfcfc 
+ 
+  }
+  
+  /* Estilos do formulário de contato */
+  #contact {
+    padding: 40px;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  #services {
+    padding: 10px 400px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+
+  #services h2 {
+    text-align: center;
+     padding: 20px;
+     font-family:cursive;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #4e4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    background-color: #1c09e8;
+    background-color: #;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  /* imgens */
+  section img {
+    display: block;
+    width: 250px;
+    align-items:start ;
+  }
+
+  .img {
+    display: flex;
+    flex-direction:row;
+    gap: 18px;
+    
+  }
+
+  .manu{
+    max-width: fit-content;
+  }
+
+  .dsg{
+    object-fit: fill;
+  }
+.cardctt{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.cardctt img{
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  
+}
+.ctt{
+  gap: 12px;
+  margin-top: 9px;
+}
+
+#services img{
+  width: 300px;
+}
+.ppp {
+
+  margin-bottom: 100px;
+}
+
+.card{
+  width: 300px 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 5, 6);
+  background-color: #ccc;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes title {
+  from {
+    width: 0; 
+  }
+  to {
+    width: 100%;
+  }
+}
