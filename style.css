@@ -75,13 +75,13 @@ body {
   
   .button {
     display: inline-block;
-    padding: 10px 10px;
+    padding: 8px 8px;
     background-color: #f40808;
     color: #fff;
     text-decoration: none;
-    margin-top: 5rem;
-    border-radius: 4px;
-
+    margin-top: 3rem;
+    border-radius: 1rem;
+    
   }
   
   /* Estilos dos serviços */
